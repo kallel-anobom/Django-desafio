@@ -10,4 +10,4 @@ def blog_list(request):
     'posts': posts,
     'tags': tags,
   }
-  return render(request, 'blog/list.html', context)
+  return render(request, 'core/blog_list.html', context)
